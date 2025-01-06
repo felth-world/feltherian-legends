@@ -9,6 +9,40 @@ hoverElements.forEach(element => {
   });
 });
 
+// Função para gerenciar música de fundo
+function setupBackgroundMusic() {
+  const audio = document.getElementById("audiobg");
+
+  // Recuperar estado anterior da música
+  const savedTime = localStorage.getItem("musicTime");
+  const isPlaying = localStorage.getItem("musicPlaying") === "true";
+
+  if (savedTime) {
+    audio.currentTime = parseFloat(savedTime);
+  }
+
+  if (isPlaying) {
+    audio.play();
+  }
+
+  // Salvar progresso da música
+  audio.addEventListener("timeupdate", () => {
+    localStorage.setItem("musicTime", audio.currentTime);
+  });
+
+  // Salvar estado de reprodução ao pausar/tocar
+  audio.addEventListener("play", () => {
+    localStorage.setItem("musicPlaying", "true");
+  });
+
+  audio.addEventListener("pause", () => {
+    localStorage.setItem("musicPlaying", "false");
+  });
+}
+
+// Executar função ao carregar a página
+document.addEventListener("DOMContentLoaded", setupBackgroundMusic);
+
 // Background music control
 window.onload = function () {
   const audio = document.getElementById('audiobg');
@@ -34,5 +68,6 @@ window.onload = function () {
     });
   });
 };
+
 
 
