@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'papiroval';
-    src: url(css/fonts/Berry\ Rotunda.ttf) format('truetype');
+    src: url("./fonts/Berry\ Rotunda.ttf") format('truetype');
 }
 
 /*-- Canção de Fundo */
