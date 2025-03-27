@@ -166,12 +166,40 @@ nav.menu.expanded {
     z-index: 1;
 }
 
-.Paragrafos2 {
+.Subtitle0 {
     font-size: large;
     position: relative;
     width: 250px;
     margin-left: 100px;
     top: 90px;
+    text-align: justify;
+    box-sizing: content-box;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.Paragrafos2 {
+    font-size: large;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin-left: 100px;
+    top: 110px;
+    text-align: justify;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.Subtitle1 {
+    font-size: large;
+    position: relative;
+    width: 450px;
+    margin-left: 100px;
+    top: 130px;
     text-align: justify;
     box-sizing: content-box;
     color: #ffffff;
@@ -186,10 +214,54 @@ nav.menu.expanded {
     font-family: 'Times New Roman', Times, serif;
     width: 1000px;
     margin-left: 100px;
-    top: 110px;
+    top: 150px;
     text-align: justify;
     color: #ffffff;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 15px;
     z-index: 1;
+
 }
+
+.Subtitle2 {
+    font-size: large;
+    position: relative;
+    width: 200px;
+    margin-left: 100px;
+    top: 170px;
+    text-align: justify;
+    box-sizing: content-box;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.Paragrafos4 {
+        font-size: large;
+        position: relative;
+        font-family: 'Times New Roman', Times, serif;
+        width: 1000px;
+        margin-left: 100px;
+        top: 190px;
+        text-align: justify;
+        color: #ffffff;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 15px;
+        z-index: 1;
+
+    }
+
+.Atributos {
+        font-size: medium;
+        position: relative;
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        top: 220px;
+        text-align: justify;
+        color: #ffffff;
+        background: rgba(0, 0, 0, 0.8);
+        margin-bottom: 10 px;
+        border-radius: 15px;
+        z-index: 1;
+    }
