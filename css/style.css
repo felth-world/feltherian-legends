@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'morris-roman';
     src: url("./fonts/MorrisRomanAlternate-Black.ttf") format('truetype');
+    font-size: 22px;
 }
 
 /*-- Canção de Fundo */
@@ -17,6 +18,7 @@
     -webkit-appearance: none;
     appearance: none;
     font-family: 'morris-roman', sans-serif;
+    font-size: 22px;
 }
 
 body,
