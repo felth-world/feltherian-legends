@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'papiroval';
-    src: url("./fonts/Berry\ Rotunda.ttf") format('truetype');
+    font-family: 'morris-roman';
+    src: url("./fonts/MorrisRomanAlternate-Black.ttf") format('truetype');
+    font-size: 22px;
 }
 
 /*-- Canção de Fundo */
@@ -16,7 +17,8 @@
     box-sizing: border-box;
     -webkit-appearance: none;
     appearance: none;
-    font-family: 'papiroval', sans-serif;
+    font-family: 'morris-roman', sans-serif;
+    font-size: 22px;
 }
 
 body,
@@ -166,19 +168,6 @@ nav.menu.expanded {
     z-index: 1;
 }
 
-.Subtitle0 {
-    font-size: large;
-    position: relative;
-    width: 250px;
-    margin-left: 100px;
-    top: 90px;
-    text-align: justify;
-    box-sizing: content-box;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-    z-index: 1;
-}
 
 .Paragrafos2 {
     font-size: large;
@@ -194,19 +183,6 @@ nav.menu.expanded {
     z-index: 1;
 }
 
-.Subtitle1 {
-    font-size: large;
-    position: relative;
-    width: 450px;
-    margin-left: 100px;
-    top: 130px;
-    text-align: justify;
-    box-sizing: content-box;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-    z-index: 1;
-}
 
 .Paragrafos3 {
     font-size: large;
@@ -223,8 +199,66 @@ nav.menu.expanded {
 
 }
 
-.Subtitle2 {
+
+.Paragrafos4 {
     font-size: large;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin-left: 100px;
+    top: 190px;
+    text-align: justify;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: 1;
+
+}
+
+.Paragrafos5 {
+    font-size: large;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin-left: 100px;
+    top: 230px;
+    text-align: justify;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.Subtitle0 {
+    font-size: larger;
+    position: relative;
+    width: 250px;
+    margin-left: 100px;
+    top: 90px;
+    text-align: justify;
+    box-sizing: content-box;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.Subtitle1 {
+    font-size: larger;
+    position: relative;
+    width: 450px;
+    margin-left: 100px;
+    top: 130px;
+    text-align: justify;
+    box-sizing: content-box;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.Subtitle2 {
+    font-size: larger;
     position: relative;
     width: 200px;
     margin-left: 100px;
@@ -237,31 +271,55 @@ nav.menu.expanded {
     z-index: 1;
 }
 
-.Paragrafos4 {
-        font-size: large;
-        position: relative;
-        font-family: 'Times New Roman', Times, serif;
-        width: 1000px;
-        margin-left: 100px;
-        top: 190px;
-        text-align: justify;
-        color: #ffffff;
-        background: rgba(0, 0, 0, 0.8);
-        border-radius: 15px;
-        z-index: 1;
-
-    }
+.Subtitle3 {
+    font-size: larger;
+    position: relative;
+    width: 200px;
+    margin-left: 100px;
+    top: 210px;
+    text-align: justify;
+    box-sizing: content-box;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    z-index: 1;
+}
 
 .Atributos {
-        font-size: medium;
-        position: relative;
-        display: block;
-        font-family: 'Times New Roman', Times, serif;
-        top: 220px;
-        text-align: justify;
-        color: #ffffff;
-        background: rgba(0, 0, 0, 0.8);
-        margin-bottom: 10 px;
-        border-radius: 15px;
-        z-index: 1;
+    font-size: medium;
+    position: relative;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    top: 220px;
+    text-align: justify;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10 px;
+    border-radius: 15px;
+    z-index: 1;
     }
+
+.move-basic {
+    width: 650px;
+    /* Definindo a largura */
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: auto;
+    /* Mantendo a proporção */
+}
+
+.move-basic01 {
+    width: 650px;
+    /* Definindo a largura */
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: auto;
+    /* Mantendo a proporção */
+}
+
+.spacer {
+    height: 350px;
+    /* O quanto de espaço adicional você quer */
+}

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'papiroval';
-    src: url("./fonts/Berry\ Rotunda.ttf") format('truetype');
+    font-family: 'morris-roman';
+    src: url("./fonts/MorrisRomanAlternate-Black.ttf") format('truetype');
 }
 
 /*-- Canção de Fundo */
@@ -12,13 +12,17 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing:
-    border-box;
+        border-box;
     box-sizing: border-box;
     -webkit-appearance: none;
     appearance: none;
-    font-family: 'papiroval', sans-serif;
+    font-family: 'morris-roman', sans-serif;
 }
-body, html{
+
+body,
+html{
+    font-family: 'morris-roman', sans-serif;
+    min-height: 100vh;
     overflow-x: hidden;
 }
 .menu{
@@ -134,4 +138,9 @@ nav{
     text-align: center;
     color: #ffffff;
     z-index: 1;
+}
+
+.spacer {
+    height: 100px;
+    /* O quanto de espaço adicional você quer */
 }
