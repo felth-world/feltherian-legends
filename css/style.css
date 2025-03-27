@@ -9,7 +9,7 @@
     display: none;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     -webkit-box-sizing:
@@ -22,11 +22,10 @@
 }
 
 body,
-html{
-    font-family: 'morris-roman', sans-serif;
-    min-height: 100vh;
+html {
     overflow-x: hidden;
 }
+
 .menu{
     background-color: #131313;
     position: fixed;
@@ -44,15 +43,16 @@ html{
     transform: translateZ(0) scale(1,1);
     z-index: 100;
 }
-.menu > ul{
+.menu>ul {
     margin: 5px 0;
 }
-.menu li{
+.menu li {
     position: relative;
     display: block;
     width: 250px;
 }
-.menu li > a{
+
+.menu li>a {
     position: relative;
     width: 255px;
     color: #ffffff;
