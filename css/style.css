@@ -26,6 +26,10 @@ html {
     overflow-x: hidden;
 }
 
+.site_title {
+    display: none;
+}
+
 .menu{
     background-color: #131313;
     position: fixed;
