@@ -24,6 +24,10 @@
 body,
 html {
     overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .menu {
@@ -93,6 +97,7 @@ nav {
     -webkit-user-select: none;
     user-select: none;
     box-shadow: 0 0 10 px #282828;
+    height: 60px;
 }
 
 .fa {
@@ -149,8 +154,6 @@ nav.menu.expanded {
     top: 50px;
     text-align: center;
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
     z-index: 1;
 }
 
@@ -160,11 +163,9 @@ nav.menu.expanded {
     font-family: 'Times New Roman', Times, serif;
     width: 1000px;
     margin-left: 100px;
-    top: 70px;
+    margin-top: 70px;
     text-align: justify;
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
     z-index: 1;
 }
 
@@ -175,11 +176,9 @@ nav.menu.expanded {
     font-family: 'Times New Roman', Times, serif;
     width: 1000px;
     margin-left: 100px;
-    top: 110px;
+    margin-top: 40px;
     text-align: justify;
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
     z-index: 1;
 }
 
@@ -190,11 +189,9 @@ nav.menu.expanded {
     font-family: 'Times New Roman', Times, serif;
     width: 1000px;
     margin-left: 100px;
-    top: 150px;
+    margin-top: 40px;
     text-align: justify;
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
     z-index: 1;
 
 }
@@ -206,11 +203,9 @@ nav.menu.expanded {
     font-family: 'Times New Roman', Times, serif;
     width: 1000px;
     margin-left: 100px;
-    top: 190px;
+    margin-top: 40px;
     text-align: justify;
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
     z-index: 1;
 
 }
@@ -221,11 +216,9 @@ nav.menu.expanded {
     font-family: 'Times New Roman', Times, serif;
     width: 1000px;
     margin-left: 100px;
-    top: 230px;
+    margin-top: 40px;
     text-align: justify;
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
     z-index: 1;
 }
 
@@ -234,12 +227,9 @@ nav.menu.expanded {
     position: relative;
     width: 250px;
     margin-left: 100px;
-    top: 90px;
+    margin-top: 40px;
     text-align: justify;
-    box-sizing: content-box;
     color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
     z-index: 1;
 }
 
@@ -248,12 +238,7 @@ nav.menu.expanded {
     position: relative;
     width: 450px;
     margin-left: 100px;
-    top: 130px;
-    text-align: justify;
-    box-sizing: content-box;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
+    margin-top: 40px;
     z-index: 1;
 }
 
@@ -262,12 +247,7 @@ nav.menu.expanded {
     position: relative;
     width: 200px;
     margin-left: 100px;
-    top: 170px;
-    text-align: justify;
-    box-sizing: content-box;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
+    margin-top: 40px;
     z-index: 1;
 }
 
@@ -276,12 +256,7 @@ nav.menu.expanded {
     position: relative;
     width: 200px;
     margin-left: 100px;
-    top: 210px;
-    text-align: justify;
-    box-sizing: content-box;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
+    margin-top: 40px;
     z-index: 1;
 }
 
@@ -290,12 +265,8 @@ nav.menu.expanded {
     position: relative;
     display: block;
     font-family: 'Times New Roman', Times, serif;
-    top: 220px;
+    margin-top: 40px;
     text-align: justify;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.8);
-    margin-bottom: 10 px;
-    border-radius: 15px;
     z-index: 1;
     }
 
@@ -303,7 +274,7 @@ nav.menu.expanded {
     width: 650px;
     /* Definindo a largura */
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 0px;
     height: auto;
     /* Mantendo a proporção */
@@ -319,7 +290,18 @@ nav.menu.expanded {
     /* Mantendo a proporção */
 }
 
-.spacer {
-    height: 350px;
-    /* O quanto de espaço adicional você quer */
+.box-content {
+    position: relative;
+    max-width: auto;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box-content h1, .box-content h2, .box-content h3,
+.box-content p, .box-content .move-basic01 {
+    text-align: justify;
 }
