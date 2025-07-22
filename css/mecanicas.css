@@ -30,11 +30,7 @@ html {
     box-sizing: border-box;
 }
 
-.site_title {
-    display: none;
-}
-
-.menu{
+.menu {
     background-color: #131313;
     position: fixed;
     overflow: hidden;
@@ -278,7 +274,7 @@ nav.menu.expanded {
     width: 650px;
     /* Definindo a largura */
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 0px;
     height: auto;
     /* Mantendo a proporção */
