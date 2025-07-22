@@ -30,7 +30,11 @@ html {
     box-sizing: border-box;
 }
 
-.menu {
+.site_title {
+    display: none;
+}
+
+.menu{
     background-color: #131313;
     position: fixed;
     overflow: hidden;
