@@ -154,7 +154,7 @@ nav{
 .responsive-container {
     position: relative;
     width: 100%;
-    padding-bottom: 62.7%; /* proporção 16:9 */
+    padding-bottom: 48.7%; /* proporção 16:9 */
     height: 100%;
 }
 
