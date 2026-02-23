@@ -38,7 +38,7 @@ html {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 120px;
+    width: 65px;
     -webkit-transition: all 0.3s
     linear;
     transition: all 0.3s linear;
@@ -74,11 +74,11 @@ html {
     vertical-align: middle;
     width: 130px;
 }
-.lista{
+.lista {
     background-color: #1b1b1b;
     text-transform: capitalize;
 }
-.lista-casa, .li-racas{
+.li {
     background-color: #1a1a1a00;
     text-transform: capitalize;
 }
@@ -113,7 +113,7 @@ nav{
     background-blend-mode: darken;
 }   
 
-.logo-casa, .logo-raca, .logo-classe, .logo-mission {
+.logo-casa, .logo-raca, .logo-classe, .logo-mission, .logo-lore, .logo-map {
     width: 45px;
     height: 45px;
     margin-left: 10px;
@@ -123,7 +123,7 @@ nav{
     
 }
 
-.logo-casa:hover, .logo-classe:hover, .logo-raca:hover, .logo-mission:hover {
+.logo-casa:hover, .logo-classe:hover, .logo-raca:hover, .logo-mission:hover, .logo-lore:hover, .logo-map:hover {
     filter: brightness(2);
     transform: scale(1.2);
 }

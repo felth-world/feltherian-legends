@@ -38,7 +38,7 @@ html {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 70px;
+    width: 65px;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
     -webkit-transform: translateZ(0) scale(1, 1);
@@ -81,8 +81,7 @@ html {
     text-transform: capitalize;
 }
 
-.lista-casa,
-.li-racas {
+.li {
     background-color: #1a1a1a00;
     text-transform: capitalize;
 }
@@ -128,7 +127,9 @@ nav.menu.expanded {
 .logo-casa,
 .logo-raca,
 .logo-classe,
-.logo-mission {
+.logo-mission,
+.logo-lore,
+.logo-map {
     width: 45px;
     height: 45px;
     margin-left: 10px;
@@ -141,7 +142,9 @@ nav.menu.expanded {
 .logo-casa:hover,
 .logo-classe:hover,
 .logo-raca:hover,
-.logo-mission:hover {
+.logo-mission:hover,
+.logo-lore:hover,
+.logo-map:hover {
     filter: brightness(2);
     transform: scale(1.2);
 }
